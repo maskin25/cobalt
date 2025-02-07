@@ -1,0 +1,21 @@
+runtime: custom # Use "custom" for Docker
+env: flex
+
+handlers:
+  - url: /.*
+    script: auto
+    secure: always
+
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 1
+  cool_down_period_sec: 120
+  cpu_utilization:
+    target_utilization: 0.65
+env_variables:
+  API_URL: https://my-ai-project-445720.ey.r.appspot.com/
