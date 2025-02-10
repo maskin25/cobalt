@@ -10,6 +10,4 @@ steps:
       - "deploy"
       - "app.yaml"
       - "--project=my-ai-project-445720"
-images:
-  - "gcr.io/$PROJECT_ID/cobalt-tools"
 logsBucket: "gs://my-ai-project-445720.appspot.com"
