@@ -10,7 +10,6 @@ steps:
         "-c",
         "gcloud config set app/cloud_build_timeout 1600 && gcloud app deploy",
       ]
-timeout: "1600s"
 images:
   - "gcr.io/$PROJECT_ID/cobalt-tools"
 logsBucket: "gs://my-ai-project-445720.appspot.com"
