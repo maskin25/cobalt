@@ -8,7 +8,7 @@ steps:
   args:
   - app
   - deploy
-  - --image=gcr.io/$PROJECT_ID/cobalt-tools
+  - --image-url=gcr.io/$PROJECT_ID/cobalt-tools
   - --project=$PROJECT_ID
   - .
 timeout: "1600s"
