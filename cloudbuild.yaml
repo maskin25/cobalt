@@ -10,4 +10,3 @@ steps:
       - "deploy"
       - "app.yaml"
       - "--project=my-ai-project-445720"
-logsBucket: "gs://my-ai-project-445720.appspot.com"
