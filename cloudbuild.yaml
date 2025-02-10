@@ -5,4 +5,6 @@ steps:
     args: ["push", "gcr.io/$PROJECT_ID/cobalt-tools"]
 images:
   - "gcr.io/$PROJECT_ID/cobalt-tools"
-logsBucket: "gs://my-ai-project-445720.appspot.com"
+logsBucket: "gs://my-ai-project-445720.appspot.com" 
+
+
